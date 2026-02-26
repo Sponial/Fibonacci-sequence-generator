@@ -1,12 +1,11 @@
 var output = [0]
 
 function fibonnaciGenerator (n) {
-    for (var output = 0, output < 10, ) //This is just an example that I borrowed. 
-    var position1 = output + 1;
-    output = position1
-    output.push(position1)
-    n = output
-    return n
+while (result => n)
+    if (n = 1) {output.push(0)}
+else if (n = 2) {output.push(0,1)}
+else {result = (n-1 + n-2)}
+    return result
 }
 
 
