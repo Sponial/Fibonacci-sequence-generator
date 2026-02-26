@@ -1,7 +1,7 @@
 function fibonnaciGenerator(n) {
-for (var output = [0]; output.length < n; output.push((n-1) + (n-2))) {
-    if (n =1) {output.push(0)}
-else if (n = 2) {output.push(0,1)}
+for (var output = [0]; output.length < n; output[output.length - 1] + output[output.length -2] {
+    if (n === 1) {output.push(0)}
+else if (n === 2) {output.push(0,1)}
 }
 return n
     }
