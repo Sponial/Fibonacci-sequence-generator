@@ -1,9 +1,12 @@
+var output = [0]
 function fibonnaciGenerator(n) {
-for (var output = [0]; output.length < n; output[output.length - 1] + output[output.length -2]) {
-    if (n === 1) {output.push(0)}
-else if (n === 2) {output.push(0,1)}
+for (output = [0]; output.length < n; output.push(output[output.length - 1] + output[output.length -2])) {
+    if (n === 1) {output.push(1)}
+else if (n === 2) {output.push(1,1)}
 }
+
 return output[n];
+console.log(output[n]);
     }
 
 fibonnaciGenerator(5);
